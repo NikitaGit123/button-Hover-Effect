@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    border: none;
+    padding: 20px 40px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 300px;
+
+}
+.button1{
+    background-color: black;
+    color: #fff;
+    border: 2px solid #4CAF50;
+    margin-left: 20px;
+}
+.button1:hover{
+    box-shadow: -4px -4px 0 rgb(0,70,70),4px 4px 0 rgb(245,29,94);
+    transition: all 0.4s ease 0s;
+
+}
